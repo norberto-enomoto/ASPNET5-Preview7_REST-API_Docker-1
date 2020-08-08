@@ -11,7 +11,7 @@ jobs:
   build:
     env:
       NOME_IMAGEM: apicontagem-preview7
-      NOME_WEBAPP: anpcontainer
+      NOME_WEBAPP: enomoto-githubactions
       IMAGEM_DOCKERHUB: ${{ secrets.DOCKER_USERNAME }}/$NOME_IMAGEM
       IMAGEM_AZURE: ${{ secrets.AZURE_CONTAINER_REGISTRY_SERVER }}/$NOME_IMAGEM
       
